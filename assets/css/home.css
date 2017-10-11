@@ -1,0 +1,67 @@
+#custom-btn-one {
+    color: #fff;
+   background-color:rgba(0, 0, 0, 0.70);
+   border-color: rgb(255, 15, 101);
+}
+    #custom-btn-one:hover {
+         color: #fff;
+        background-color:rgba(0, 0, 0, 0.40);
+    }
+    #btn-style-two {
+    color: #fff;
+background-color: #797979;
+border-color: #929292;
+border-radius: 0px!important;
+-webkit-border-radius:  0px!important;
+-moz-border-radius:  0px!important;
+}
+#btn-style-two:hover {
+    color: #fff;
+}
+
+ #btn-style-three {
+    color: #fff;
+background-color: #3BAD72;
+border-color: #44EBB5;
+border-radius: 0px!important;
+-webkit-border-radius:  0px!important;
+-moz-border-radius:  0px!important;
+}
+#btn-style-three:hover {
+    color: #fff;
+}
+#home{
+	background: url(../img/home2.jpg) no-repeat center center;
+padding: 0;
+-webkit-background-size: cover;
+background-size: cover;
+background-attachment: fixed;
+color:#fff;
+}
+  #home .overlay {
+        padding-top:100px;
+        background:rgba(0, 0, 0, 0.80);
+        min-height:790px;
+    }
+ #home .main-img {
+     
+     max-height:400px;
+   border:5px solid rgb(255, 15, 101);
+  content:url('../img/j1.jpg');  /*SAD IMAGE URL  - LEFT SIDE IMAGE*/
+  cursor:pointer;
+}
+ #home .main-img:hover {
+  content:url('../img/j2.jpg'); /*SIMLE IMAGE URL ON HOVER - LEFT SIDE IMAGE*/
+  cursor:pointer;
+}
+ #home .main-img-2 {
+     
+     max-height:400px;
+   border:5px solid rgb(255, 15, 101);
+  content:url('../img/j2.jpg');  /*SAD IMAGE URL  - LEFT SIDE IMAGE*/
+  cursor:pointer;
+}
+ #home .main-img-2:hover {
+  content:url('../img/j1.jpg'); /*SIMLE IMAGE URL ON HOVER - LEFT SIDE IMAGE*/
+  cursor:pointer;
+}
